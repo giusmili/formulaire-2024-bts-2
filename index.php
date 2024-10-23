@@ -45,6 +45,16 @@
             <?php
 
             # tester le code PHP
+                /* print_r($_POST); */
+                foreach ($_POST as $key => $value) {
+                    if(!empty($value)){
+                    print "<li>".htmlspecialchars($key)." ". htmlspecialchars($value)."</li>";
+                    }
+                    else{
+                        print"<li>Champs obligatoires</li>";
+                    }
+                }
+                
           
 
             ?>
