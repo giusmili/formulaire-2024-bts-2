@@ -1,4 +1,4 @@
-# 🚀 Développement PHP : formulaire de contact
+# 🚀  𝑫𝒆́𝒗𝒆𝒍𝒐𝒑𝒑𝒆𝒎𝒆𝒏𝒕 𝑷𝑯𝑷 : 𝒇𝒐𝒓𝒎𝒖𝒍𝒂𝒊𝒓𝒆 𝒅𝒆 𝒄𝒐𝒏𝒕𝒂𝒄𝒕
 
 
 - 📝 Présentation des différents éléments de formulaire HTML (champs de texte, boutons, cases à cocher, etc.).
@@ -7,7 +7,7 @@
 - 🛠️ Traitement basique des données reçues en PHP (validation et affichage).
 - 🗂️ Introduction aux fonctions PHP comme `$_POST` et `$_GET` pour gérer les données soumises.
 
-## Exemple Client serveur:
+##  𝑬𝒙𝒆𝒎𝒑𝒍𝒆 𝑪𝒍𝒊𝒆𝒏𝒕 𝑺𝒆𝒓𝒗𝒆𝒖𝒓:
 ```
 Client (navigateur)  -->  [Formulaire HTML]  -->  [Méthode POST]  -->  
 Serveur (PHP)  -->  [$_POST]  -->  [Traitement]  -->  
