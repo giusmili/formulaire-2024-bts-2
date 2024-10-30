@@ -45,6 +45,15 @@
             <?php
 
                 # tester le code PHP
+
+               foreach ($_POST as $key => $value) {
+                    if(!empty($_POST)){
+                        print $key." : ".$value."<br>";
+                    }
+                    else{
+                        print 'Une erreur s\'est produite';
+                    }
+               }
           
 
             ?>
