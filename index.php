@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -11,6 +12,23 @@
     <header>
         <h1>🚀Formulaire d'inscription</h1>
     </header>
+    <section>
+        <h2>Vos information</h2>
+        <ul>
+        <?php
+
+        # tester le code PHP
+        // print_r($_POST)
+        foreach ($_POST as $key => $value) {
+            # condition
+            
+            !empty($value) ? print "<li class=\"success\">$key : ".htmlspecialchars($value)."</li>":
+            print "<li class=\"warning\">Remplir les champs $key</li>";
+        }
+
+        ?>
+        </ul>
+    </section>
     <main>
         <fieldset>
             <legend>inscription</legend>
@@ -42,16 +60,11 @@
         </form>
 </fieldset>
 <pre>
+
 </pre>
-     <ul>
-            <?php
-
-                # tester le code PHP
-               
-              
-
-            ?>
-    </ul>  
+    
+    
+     
       
    
     </main>
