@@ -14,7 +14,9 @@
     <main>
         <fieldset>
             <legend>inscription</legend>
-            <form action="index.php" method="post"> <!-- post and get -->
+            <!-- https://giusmili.github.io/cube-halloween/asset/halloween-cover.jpeg -->
+            <!-- https://www.google.com/search? -->
+            <form action="<?= $_SERVER['PHP_SELF'] ?>" method="post"> <!-- post and get -->
                 <label for="numero">Numéro de serie</label>
                 <input type="text" 
                         id="numero" 
@@ -45,7 +47,7 @@
             <?php
 
                 # tester le code PHP
-
+               
               
 
             ?>
