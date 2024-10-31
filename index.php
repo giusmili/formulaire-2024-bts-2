@@ -17,15 +17,7 @@
         <ul>
         <?php
 
-        # tester le code PHP
-        // print_r($_POST)
-        foreach ($_POST as $key => $value) {
-            # condition
-            
-            !empty($value) ? print "<li class=\"success\">$key : ".htmlspecialchars($value)."</li>":
-            print "<li class=\"warning\">Remplir les champs $key</li>";
-        }
-
+            include_once __DIR__ ."/controller/baseController.php";
         ?>
         </ul>
     </section>
