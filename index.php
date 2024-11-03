@@ -12,6 +12,12 @@
     <header>
         <h1>🚀Formulaire d'inscription</h1>
     </header>
+<main>
+    <figure>
+        <img 
+        src="https://www.pokepedia.fr/images/4/44/Sprite_Pectorius_2_SL.png?20161121055445" 
+        alt="personnage" loading="lazy">
+    </figure>
     <section>
         <h2>Vos information</h2>
         <ul>
@@ -21,7 +27,6 @@
         ?>
         </ul>
     </section>
-    <main>
         <fieldset>
             <legend>inscription</legend>
             <!-- https://giusmili.github.io/cube-halloween/asset/halloween-cover.jpeg -->
