@@ -14,12 +14,18 @@
     </header>
 <main>
     <figure>
+        <figcaption>
+            <h3>😎 The wolrd is your</h3>
+        </figcaption>
         <img 
         src="https://www.pokepedia.fr/images/4/44/Sprite_Pectorius_2_SL.png?20161121055445" 
         alt="personnage" loading="lazy">
     </figure>
     <section>
-        <h2>Vos information</h2>
+        <h2>
+            <span aria-hidden="true">📣</span>&nbsp;
+            Vos informations
+        </h2>
         <ul>
         <?php
 

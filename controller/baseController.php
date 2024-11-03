@@ -7,7 +7,7 @@
                 # condition
                 
                 !empty($value) ? print "<li class=\"success\">$key : ".htmlspecialchars($value, ENT_QUOTES)."</li>":
-                print "<li class=\"warning\">Remplir les champs $key</li>";
+                print "<li class=\"warning\">⚠️ Remplir les champs $key</li>";
             }
     
         }
